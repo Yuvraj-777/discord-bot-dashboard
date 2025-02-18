@@ -124,4 +124,66 @@
     font-size: 4vh;
 }
 
+.ffmain {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-transform: capitalize;
+}
+
+.line1 {
+    font-size: 1.9em;
+    font-weight: 650;
+}
+
+span {
+    color: yellow;
+}
+
+.line2 {
+    font-size: 0.7em;
+}
+
+.button-container {
+    display: flex;           
+    gap: 10px;
+}              
+
+.inviite, .jserver {
+    height: 40px;
+    width: auto;
+    background: var(--accent-orange);
+    text-align: center;
+    border-radius: 8px;
+    padding: 0 20px;         
+    display: flex;
+    align-items: center;     
+    justify-content: center; 
+    text-transform: capitalize;
+}
+
+.fsmain {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.immg {
+    width: auto;
+    height: 16em;
+    border-radius: 50%;
+    border: 20px solid rgb(25, 24, 24);
+    margin-top: -70px;
+}
+
+.about {
+    background: var(--dark-bg);
+    height: 100vh; /* Makes it full-screen */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: var(--white);
+    font-size: 4vh;
+}
+
 
